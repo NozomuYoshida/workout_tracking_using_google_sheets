@@ -4,10 +4,10 @@
 import requests
 import datetime as dt
 
-APP_ID = 'b5cd7f1b'
-API_KEY = 'e7a0d177b1cc6ea3dd19d9731b67d502'
-nlp_exercise_endpoint = 'https://trackapi.nutritionix.com/v2/natural/exercise'
-sheety_endpoint = 'https://api.sheety.co/aed6762a19a884464545a03871d4c4a9/myWorkouts/workouts'
+APP_ID = YOUR APP ID
+API_KEY = YOUR API KEY
+nlp_exercise_endpoint = YOUR NLP EXERCISE ENDPOINT
+sheety_endpoint = YOUR SHHETY ENDPOINT
 
 text_input = input('Tell me which exercises you did: ')
 # text_input = 'ran 3 miles'
@@ -37,7 +37,7 @@ duration = str(data['exercises'][0]['duration_min']) + ' min'
 calories = data['exercises'][0]['nf_calories']
 
 headers_sheety = {
-    'Authorization': 'Basic bm96b211eW9zaGlkYTpub3pvMDExNi0='
+    'Authorization': YOUR OUTHORIZATION
 }
 
 sheety_params = {
