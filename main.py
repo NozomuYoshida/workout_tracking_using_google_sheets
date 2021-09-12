@@ -38,7 +38,7 @@ duration = str(data['exercises'][0]['duration_min']) + ' min'
 calories = data['exercises'][0]['nf_calories']
 
 headers_sheety = {
-    'Authorization': YOUR OUTHORIZATION
+    'Authorization': YOUR AUTHORIZATION
 }
 
 sheety_params = {
